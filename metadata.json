@@ -1,0 +1,6 @@
+{
+  "name": "Sengoal",
+  "description": "India's first consumer circular energy network. Converting used cooking oil into clean biodiesel and sustainable aviation fuel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
