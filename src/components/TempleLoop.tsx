@@ -63,7 +63,7 @@ export default function TempleLoop({ templeImagePath }: TempleProps) {
           <div className="col-span-1 lg:col-span-6 space-y-6">
             <div className="space-y-4">
               <p className="text-[10px] font-bold tracking-widest text-brand-gold uppercase">
-                THE FIVE INTEGRATED PATHWAYS
+                THE FOUR INTEGRATED PATHWAYS
               </p>
               
               <div className="space-y-4">
