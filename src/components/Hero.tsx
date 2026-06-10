@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { ArrowRight, ChevronDown } from "lucide-react";
+import resolvedHeroImgImport from "../assets/images/sengoal_refinery_1780903957652.png";
 
 interface HeroProps {
   heroImagePath: string;
@@ -8,7 +9,7 @@ interface HeroProps {
 
 export default function Hero({ heroImagePath }: HeroProps) {
   // Use brighter generated image
-  const resolvedHeroImg = "/src/assets/images/sengoal_refinery_1780903957652.png";
+  const resolvedHeroImg = resolvedHeroImgImport;
 
   return (
     <section className="relative min-h-screen flex flex-col justify-between pt-24 pb-8 overflow-hidden bg-brand-offwhite">

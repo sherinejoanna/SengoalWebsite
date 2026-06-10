@@ -15,12 +15,18 @@ import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
 
 // Custom generated asset paths for Sengoal
+import heroImg from "./assets/images/sengoal_hero_1780903921072.png";
+import problemKnImg from "./assets/images/problem_kitchen_1780903939113.png";
+import refineryImg from "./assets/images/sengoal_refinery_1780903957652.png";
+import templeLpImg from "./assets/images/temple_lamps_1780903977309.png";
+import techColImg from "./assets/images/collection_tech_1780903997914.png";
+
 const IMAGES = {
-  hero: "/src/assets/images/sengoal_hero_1780903921072.png",
-  problemKn: "/src/assets/images/problem_kitchen_1780903939113.png",
-  refinery: "/src/assets/images/sengoal_refinery_1780903957652.png",
-  templeLp: "/src/assets/images/temple_lamps_1780903977309.png",
-  techCol: "/src/assets/images/collection_tech_1780903997914.png"
+  hero: heroImg,
+  problemKn: problemKnImg,
+  refinery: refineryImg,
+  templeLp: templeLpImg,
+  techCol: techColImg
 };
 
 export default function App() {
