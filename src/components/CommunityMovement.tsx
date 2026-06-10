@@ -156,7 +156,6 @@ export default function CommunityMovement() {
 
             {/* Micro-metrics detail label footer */}
             <div className="pt-4 border-t border-white/10 flex items-center gap-3 text-xs text-white/70">
-              <span className="w-2 h-2 rounded-full bg-brand-accent animate-ping" />
               <span>Updating real-time ledger via pin code geolocation networks.</span>
             </div>
 

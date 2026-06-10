@@ -48,10 +48,6 @@ export default function Hero({ heroImagePath }: HeroProps) {
               transition={{ delay: 0.1, duration: 0.8 }}
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-green/5 border border-brand-green/15 mb-6"
             >
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-accent opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-accent"></span>
-              </span>
               <span className="text-[11px] font-bold uppercase tracking-[0.1em] text-[#0F5D2F]">
                 100+ Families Already Pledged
               </span>

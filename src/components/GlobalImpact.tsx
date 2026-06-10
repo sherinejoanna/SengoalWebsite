@@ -81,14 +81,12 @@ export default function GlobalImpact() {
                     className="absolute group focus:outline-none -translate-x-1/2 -translate-y-1/2 transition-transform duration-500 hover:scale-125 cursor-pointer"
                     style={{ left: `${node.coords.x}%`, top: `${node.coords.y}%` }}
                   >
-                    {/* Glowing coordinate wave triggers */}
-                    <span className="relative flex h-8 w-8 items-center justify-center">
-                      <span className={`animate-ping absolute inline-flex h-full w-full rounded-full opacity-40 ${
-                        isActive ? "bg-brand-gold" : "bg-[#0F5D2F]"
-                      }`} />
-                      <span className={`relative rounded-full h-3 w-3 shadow-md border border-white transition-colors duration-300 ${
-                        isActive ? "bg-brand-gold" : "bg-[#0F5D2F]"
-                      }`} />
+                    {/* Coordinate node markers */}
+                    <span className={`relative flex h-5 w-5 items-center justify-center transition-colors duration-300 ${isActive ? "text-brand-gold" : "text-[#0F5D2F]"}`}>
+                      <svg viewBox="0 0 16 16" fill="none" className="w-4 h-4" stroke="currentColor" strokeWidth="2">
+                        <line x1="8" y1="0" x2="8" y2="16" />
+                        <line x1="0" y1="8" x2="16" y2="8" />
+                      </svg>
                     </span>
 
                     {/* Simple Tooltip Label above node */}
