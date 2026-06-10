@@ -163,9 +163,7 @@ export default function HouseholdTimeline({
 
               {/* Glowing decorative frame boundary info */}
               <div className="absolute inset-0 border border-black/5 rounded-[24px] pointer-events-none" />
-              <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-white/10 text-[9px] font-mono tracking-widest text-white uppercase">
-                Interactive Visual Portal
-              </div>
+
             </div>
           </div>
 
